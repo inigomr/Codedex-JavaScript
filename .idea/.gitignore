@@ -6,3 +6,11 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+# Ignore everything
+*
+
+# But not directories (needed so Git can look inside them)
+!*/
+
+# Don’t ignore .js files
+!*.js
